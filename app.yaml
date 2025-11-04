@@ -1,0 +1,11 @@
+runtime: java17
+entrypoint: java -jar target/springboot-helloworld-j11-0.0.1-SNAPHOT.jar
+
+instance_calss: F2
+
+automatic_scaling:
+  max_instances:1
+
+handlers:
+  - url: /.*
+    script: auto
