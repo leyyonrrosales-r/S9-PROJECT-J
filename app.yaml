@@ -1,6 +1,6 @@
 runtime: java17
 env: standard
-instance_calss: F1
+instance_class: F1
 
 entrypoint: java -jar target/springboot-helloworld-j11-0.0.1-SNAPHOT.jar
 
